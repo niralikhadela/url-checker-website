@@ -1,0 +1,52 @@
+/* Basic page styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fafafa;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.checker-container {
+  background: #fff;
+  padding: 24px 32px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 350px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+  margin-top: 10px;
+}
+
+input[type="text"]:focus {
+  border-color: #0078d7;
+}
+
+/* Status messages */
+.status {
+  font-weight: 500;
+  margin-top: 12px;
+}
+
+.status.success {
+  color: #2e8b57; /* green */
+}
+
+.status.error {
+  color: #c0392b; /* red */
+}
+
+.status.loading {
+  color: #e67e22; /* orange */
+}
