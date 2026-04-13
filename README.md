@@ -1,29 +1,28 @@
 # URL Checker Website
 
-This is a simple website that checks whether a given URL exists and is reachable.
+This project is a simple frontend web application that checks whether a given URL is valid and reachable.
 
 ## Features
 - User can enter any URL
 - Validates URL format
-- Checks if URL is reachable
-- Displays result to the user
-- Error handling for invalid links
+- Displays whether URL is valid or invalid
+- Handles incorrect input
+- Simple and clean UI
 
 ## Technologies
-- HTML
-- CSS
+- HTML5
+- CSS3
 - JavaScript
-- HTTP request handling
 
 ## Purpose
-This project was created as part of a technical interview task to demonstrate logical thinking and web development skills.
+This project was created as part of a technical interview task to demonstrate logical thinking and frontend development skills.
 
 ## Skills demonstrated
 - JavaScript logic
 - Input validation
-- HTTP request handling
-- Debugging
 - Problem solving
+- Debugging
+- User interface design
 
 ## Author
 Nirali Kachhadiya
